@@ -1,0 +1,48 @@
+@import "./_variables";
+@import "./light";
+@import "./dark";
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  width: 100vw;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+h1 {
+  color: var(--h1-color);
+  font-size: var(--h1-size);
+  font-family: var(--font-family);
+}
+
+p {
+  color: var(--p-color);
+  font-size: var(--p-size);
+  font-family: var(--font-family);
+}
+input {
+  color: var(--input-color);
+  font-size: var(--input-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: var(--font-family);
+  margin-top: 1rem;
+}
+.navbar {
+  background-color: var(--bg-color);
+  color: var(--p-color);
+}
+.form {
+  margin: 0 auto;
+  width: 50%;
+  background-color: var(--bg-color);
+}
